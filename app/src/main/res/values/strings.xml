@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">idi.online</string>
-    <string name="lblTestePaises"></string>
+    <string name="lblTestePaises">Teste:</string>
+    <string name="lblpergunta1">Qual é esse ponto turistico de El Salvador</string>
+    <string name="lblchecar">Checar</string>
+    <string name="lblmuseodelapaabra">Museo De La Palabra</string>
+    <string name="lblCasaBlanca">Casa Blanca</string>
+    <string name="lblcatedralofsantana">Cathedral of Santa Ana</string>
+    <string name="lblsantaanavolcano">Santa Ana Volcano</string>
 </resources>
