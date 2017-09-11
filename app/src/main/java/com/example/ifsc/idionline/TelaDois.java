@@ -8,6 +8,7 @@ import android.widget.RadioButton;
 import android.widget.Toast;
 
 public class TelaDois extends AppCompatActivity {
+    private Button ok;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,7 +19,7 @@ public class TelaDois extends AppCompatActivity {
         final RadioButton opcao2  = (RadioButton) findViewById(R.id.rbopcao2);
         final RadioButton opcao3  = (RadioButton) findViewById(R.id.rbopcao3);
         final RadioButton opcao4  = (RadioButton) findViewById(R.id.rbopcao4);
-        Button ok = (Button) findViewById(R.id.btnOK);
+        ok = (Button) findViewById(R.id.btnOK);
         ok.setOnClickListener(new View.OnClickListener(){
 
             @Override
@@ -30,4 +31,5 @@ public class TelaDois extends AppCompatActivity {
         });
 
     }
+
 }
